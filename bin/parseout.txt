@@ -1,0 +1,23 @@
+constsym 
+identsym.1 eqlsym numbersym.8 commasym 
+identsym.2 eqlsym numbersym.2 semicolonsym 
+intsym 
+identsym.3 commasym 
+identsym.4 commasym 
+identsym.5 semicolonsym 
+procsym identsym.6 semicolonsym 
+beginsym 
+identsym.3 becomessym numbersym.1 plussym numbersym.1 semicolonsym 
+endsym semicolonsym 
+beginsym 
+callsym identsym.6 semicolonsym 
+ifsym identsym.2 leqsym identsym.1 thensym 
+identsym.4 becomessym identsym.2 plussym identsym.1 semicolonsym 
+whilesym identsym.3 lesssym identsym.4 dosym 
+beginsym 
+identsym.3 becomessym identsym.3 plussym numbersym.3 semicolonsym 
+endsym semicolonsym 
+in identsym.5 semicolonsym 
+outsym identsym.3 semicolonsym 
+outsym identsym.4 semicolonsym 
+endsym periodsym 
